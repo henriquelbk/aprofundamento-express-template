@@ -6,9 +6,21 @@ export enum ACCOUNT_TYPE {
     BLACK = "Black"
 }
 
+export enum STRONG_FOOT {
+    LEFT = "Left",
+    RIGHT = "Right",
+}
+
 export type TAccount = {
     id: string,
     ownerName: string,
     balance: number,
     type: ACCOUNT_TYPE
+}
+
+export type TCoringas = {
+    id: string,
+    name: string,
+    goals: number,
+    strongFoot: STRONG_FOOT
 }

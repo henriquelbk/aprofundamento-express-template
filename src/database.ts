@@ -1,4 +1,5 @@
 import { ACCOUNT_TYPE, TAccount } from "./types";
+import { STRONG_FOOT, TCoringas } from "./types";
 
 export const accounts: TAccount[] = [
     {
@@ -18,5 +19,26 @@ export const accounts: TAccount[] = [
         ownerName: "Fulana",
         balance: 20000,
         type: ACCOUNT_TYPE.PLATINUM
+    }
+]
+
+export const coringas: TCoringas[] = [
+    {
+        id: "a001",
+        name: "Gabigol",
+        goals: 135,
+        strongFoot: STRONG_FOOT.LEFT
+    },
+    {
+        id: "a002",
+        name: "Bruno Henrique",
+        goals: 93,
+        strongFoot: STRONG_FOOT.RIGHT
+    },
+    {
+        id: "a003",
+        name: "Arrascaeta",
+        goals: 55,
+        strongFoot: STRONG_FOOT.RIGHT
     }
 ]
